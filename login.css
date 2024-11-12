@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.userlogin{
+    background-color: #080808ba;
+    display: flex;
+    width: 30rem;
+    height: 40rem;
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    justify-content: center;
+    
+}
+.sign-up h1{
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.user-details{
+   
+    margin-top: 2.5rem;
+}
+.titles{
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+    margin-top: 1rem;
+}
+.username-input input{
+    width: 20rem;
+    height: 2.6rem;
+    font-size: 15px;
+    margin-top: 7px;
+    border: 0.4px solid #070707b5;
+    border-radius: 3px;
+}
+.username{
+    margin-top: 8px;
+    color: #f1c217;
+    font-size: 14px;
+    font-family: monospace;
+}
+.target-submit{
+    margin-top: 2rem;
+   
+}
+.target-submit :hover{
+    background-color: #000000;
+    transition: 0.3s ease-in;
+    color: white;
+}
+.target-submit input{
+    color: #fff;
+    background-color: #2ad151;
+    border: transparent;
+    border-radius: 3px;
+    font: icon;
+    cursor: pointer;
+}
+.already{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.already a{
+    color: rgb(217, 255, 26);
+}
+
+.target-submit2 input{
+    
+    border-radius: 3px;
+    font: icon;
+    background: transparent;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+.target-submit2 img{
+    width: 1.1rem;
+    position: absolute;
+    right: 18rem;
+    margin-top: 17px;
+    
+}
+.valid-name{
+    color: red;
+}

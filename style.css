@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(rgb(0 0 0), rgb(80 73 73 / 0%)), url(mountains-7774999_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+   
+    
+}   
+.nav{
+    display: flex;
+
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.ul-list{
+    display: flex;
+    padding: 20px 20px ;
+    cursor: pointer;
+   
+}
+.ul-list ul{
+     margin: 0px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 50rem;
+    height: 20rem;
+    position: absolute;
+    left: 22rem;
+    
+
+}
+.about-me{
+    color: white;
+    font-size: 1.1rem;
+}
+.button-login button{
+    width: 10rem;
+    height: 2.3rem;
+    background-color: blue;
+    border-radius: 0.3rem;
+    color: white;
+    border: transparent;
+    font-size: 1.1rem;
+    position: relative;
+    top: 8rem;
+    right: 40rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
